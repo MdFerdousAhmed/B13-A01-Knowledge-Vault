@@ -120,21 +120,88 @@ nav{
   gap: 24px;
   cursor: pointer;
 }
- .skill-box .skill-card{
+.skill-box .skill-card{
   padding: 30px;
   margin-top: 44px;
   /* border: 2px solid red; */
-  box-shadow: 0 6px 50px 0 rgb(209, 192, 192);;
- }
- .skill-box .skill-card img{
+  box-shadow: 0 6px 50px 0 rgb(209, 192, 192);
+  border-radius: 8px;
+}
+.skill-box .skill-card img{
   background-color: rgba(249, 85, 85, 1);
   border-radius: 50%;
   padding: 16px 16px;
- }
- .skill-box .skill-card h3{
+}
+.skill-box .skill-card h3{
   font-size: 24px;
   padding-top: 16px;
- }
- .skill-box .skill-card p{
+}
+.skill-box .skill-card p{
   padding-top: 16px;
- }
+}
+/* end */
+#brain .brain-container{
+  padding: 120px 120px;
+  display: flex;
+  gap: 60px;
+  cursor: pointer;
+}
+#brain .brain-container .brain-img img{
+  width: 600px;
+  height: 600px;
+}
+.brain-contant .head{
+  /* border: 2px solid red; */
+  padding-top: 102px;
+  color: #30B868;
+}
+.brain-contant h2{
+  padding-top: 16px;
+  font-style: bold;
+  font-size: 48px;
+  font-weight: 700;
+}
+.brain-contant p{
+  padding-top: 16px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.brain-contant .icon{
+  list-style-type: none;
+  /* background: #30B868; */
+}
+.brain-contant .icon li i{
+  background: #30B868;
+  border-radius: 50%;
+ 
+}
+#early .early-container{
+  padding: 82px 120px 120px 120px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.early-content {
+  /* border: 1px solid red; */
+  background: rgba(247, 246, 242, 1);
+  border-radius: 8px;
+}
+.early-content h2{
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+}
+.early-content p{
+  margin-top: 16px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+} 
+.early-content button{
+  margin-top: 24px;
+}
+.early-content footer{
+  margin-top: 16px;
+  padding-bottom: 80px;
+}
