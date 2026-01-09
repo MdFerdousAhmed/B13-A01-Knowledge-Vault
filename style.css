@@ -59,6 +59,7 @@ nav{
   text-align: center;
   background: url(assets/hero-bg.png);
   background-repeat: no-repeat;
+  cursor: pointer;
   /* padding: 0 auto; */
 }
 #banner .container .badge {
@@ -96,3 +97,44 @@ nav{
   border: 1px solid white;
   background: none;
 }
+#skills{
+  height: 70vh;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  text-align: center;
+}
+#skills .skills-container .section-heading h2{
+  padding-top: 56px;
+}
+#skills .skills-container{
+  padding-left: 120px;
+  padding-right: 120px;
+
+}
+.section-heading p{
+  padding-top: 16px;
+}
+#skills .skills-container .skill-box{
+  display: flex;
+  gap: 24px;
+  cursor: pointer;
+}
+ .skill-box .skill-card{
+  padding: 30px;
+  margin-top: 44px;
+  /* border: 2px solid red; */
+  box-shadow: 0 6px 50px 0 rgb(209, 192, 192);;
+ }
+ .skill-box .skill-card img{
+  background-color: rgba(249, 85, 85, 1);
+  border-radius: 50%;
+  padding: 16px 16px;
+ }
+ .skill-box .skill-card h3{
+  font-size: 24px;
+  padding-top: 16px;
+ }
+ .skill-box .skill-card p{
+  padding-top: 16px;
+ }
