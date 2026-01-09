@@ -113,7 +113,7 @@ nav{
   padding-left: 120px;
   padding-right: 120px;
   padding-bottom: 120px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 .section-heading p{
   padding-top: 16px;
