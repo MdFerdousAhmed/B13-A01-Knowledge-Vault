@@ -100,7 +100,7 @@ nav{
 /* banner end */
 /* skills start */
 #skills{
-  height: 70vh;
+  height: 81vh;
   display: flex;
   /* align-items: center; */
   justify-content: center;
@@ -112,7 +112,8 @@ nav{
 #skills .skills-container{
   padding-left: 120px;
   padding-right: 120px;
-
+  padding-bottom: 120px;
+  border: 1px solid red;
 }
 .section-heading p{
   padding-top: 16px;
@@ -155,7 +156,7 @@ nav{
 }
 .brain-content .head{
   /* border: 2px solid red; */
-  padding-top: 102px;
+  padding-top: 120px;
   color: #30B868;
 }
 .brain-content h2{
@@ -182,7 +183,9 @@ nav{
 /* brain end */
 /* early start */
 #early .early-container{
-  padding: 120px 120px;
+  padding-bottom: 120px;
+  padding-left: 120px;
+  padding-right: 120px;
   text-align: center;
   align-items: center;
   justify-content: center;
