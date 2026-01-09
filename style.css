@@ -150,28 +150,28 @@ nav{
   width: 600px;
   height: 600px;
 }
-.brain-contant .head{
+.brain-content .head{
   /* border: 2px solid red; */
   padding-top: 102px;
   color: #30B868;
 }
-.brain-contant h2{
+.brain-content h2{
   padding-top: 16px;
   font-style: bold;
   font-size: 48px;
   font-weight: 700;
 }
-.brain-contant p{
+.brain-content p{
   padding-top: 16px;
   font-size: 16px;
   font-weight: 400;
   line-height: 20px;
 }
-.brain-contant .icon{
+.brain-content .icon{
   list-style-type: none;
   /* background: #30B868; */
 }
-.brain-contant .icon li i{
+.brain-content .icon li i{
   background: #30B868;
   border-radius: 50%;
  
